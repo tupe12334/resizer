@@ -1,0 +1,23 @@
+{
+  "name": "resizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index",
+    "prebuild": "rimraf ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.3.10",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.4",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
